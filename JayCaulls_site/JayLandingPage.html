@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JayCaulls.com</title>
+	<meta charset="utf-8">
+
+<script>
+	window.onload = function() {
+		var menuButton = document.getElementById("open-menu");
+		menuButton.click();
+	};
+</script>
+
+<link rel="stylesheet" href="CaullsStyle.css"> 
+<style type="text/css">
+
+	@font-face{
+		font-family:"Akira Expanded Demo";
+		src: url("Akira Expanded Demo.otf") format('opentype');
+		font-weight: normal;
+		font-style: normal;
+	}	
+	header{
+		display:flex;
+		align-items:center;
+		justify-content:left;
+	}
+	header img{
+		position:fixed;
+		height:500px;			
+		width:500px;
+		margin-top:100px;
+		margin-left:0px;
+	}
+	body{
+		background-image:url("Main-page.png");
+		font-family: "Akira Expanded Demo", Helvetica Neue, sans-serif;
+	}
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+	
+	<header id="header">
+		<img src="blackjclogo.png">
+	</header>
+	
+	<div id="mainContent">
+		<h1 style="text-shadow: 2px 1px 1px black;"> JayCaulls</h1>
+		<h3 style="text-shadow: 2px 1px 1px black;">
+			Races fake cars & journeys through imaginary realms. . .</h3>
+		
+    <ul id="menu">
+           <!-- open-menu id for click event -->
+            <a class="menu-button icon-plus" id="open-menu" href="#menu" title="Show navigation">
+				<img src="blackjcinitials.png" style="z-index:5;">
+			</a>
+            <a class="menu-button icon-minus" href="#" title="Hide navigation">
+				<img src="blackjcinitials.png" style="z-index:5;">
+			</a>
+			
+			<!--All the items in the wheel list-->
+            <li class="menu-item">
+                <a href="https://www.youtube.com/jaycaulls">
+					<img src="youtubeicon.png" style="z-index:5;">
+                    <span class="youtube"></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://www.twitch.tv/jaycaulls">
+					<img src="twitchicon.png" style="z-index:5;">
+                    <span class="twitch"></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://twitter.com/JayCaulls">
+					<img src="twittericon.png" style="z-index:5;">
+                    <span class="twitter"></span>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="https://www.tiktok.com/@jaycaulls">
+					<img src="tiktokicon.png" style="z-index:5;">
+                    <span class="tiktok"></span>
+                </a>
+            </li>
+			<li class="menu-item">
+				<a href="https://store.streamelements.com/jaycaulls">
+					<img src="shirticon.png" style="z-index:5;">
+					<span class="merch"></span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="https://discord.com/invite/jaycaulls">
+					<img src="discordicon.png" style="z-index:5;">
+					<span class="discord"></span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="https://linktr.ee/JayCaulls?utm_source=linktree_profile_share&ltsid=f96a8cac-d93c-48d4-9aaa-b07ed1582205">
+					<img src="linktreeicon.png" style="z-index:5;">
+					<span class="linktree"></span>
+				</a>
+			</li>
+			<li class="menu-item">
+				<a href="https://www.instagram.com/jaycaulls/">
+					<img src="instagramicon.png" style="z-index:5;">
+					<span class="instagram"></span>
+				</a>
+			</li>
+        </ul>
+	</div>
+	
+	
+</div>
+
+</body>
+
+</html>
